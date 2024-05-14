@@ -41,7 +41,7 @@ export default function Home() {
 	return (
 		<main className="flex min-h-screen flex-col items-center px-16 py-4 h-full">
 			<Button onClick={() => setLogs("")} className="my-4">
-				Generate new report
+				Generate New Report
 			</Button>
 
 			<Tabs defaultValue="noise" className="w-full">
